@@ -264,7 +264,7 @@ describe('14. stream2.js', function() {
     });
   })
 
-  it('14.9 Negatvie - give non-query SQL', function(done) {
+  it('14.9 Negative - give non-query SQL', function(done) {
     var sql = "INSERT INTO nodb_employees VALUES (300, 'staff 300', EMPTY_CLOB())";
     var stream = connection.queryStream(sql);
 
